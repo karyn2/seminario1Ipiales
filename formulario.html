@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css ">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body style="background-color: #b9d4f0">
+    <div class="contenedor">
+        <table style="width: 100%;">
+            <tr>
+                <td rowspan="2" style="width: 25%;" class="margenderecho margensuperior">
+                    <img src="img/Logo_S.png" alt="" width="50%" style="padding-top: 20px;">
+                </td>
+                <td style="width: 50%; padding-top: 80px;" class="margenderecho margensuperior">
+                    <label for="" class="centrado titulo"> <b>GARDÍN INFANTIL "Happy Little People"</b> </label>
+                </td>
+                <td style="width: 25%; padding-top: 80px;" class="margensuperior" >
+                    <label for="" class="centrado"> Número de solicitud</label>
+                </td>
+            </tr>
+           
+            <tr>
+                <td class="margenderecho margensuperior">
+                    <label for="" class="centrado titulo"> <b>FORMULARIO SOLICITUD DE CUPO </b> </label>
+                </td>
+                <td class="margensuperior">
+                    <input type="text" class="centrado" id="ins" value="001" readonly>
+                </td>
+            </tr>
+        </table>
+        <form action="">
+        <br><br>
+        <div class="principal">
+            <label class="titulo"> <b>DATOS PERSONALES</b> </label> 
+        </div>
+        
+        <br><br>
+      
+        <div class="margenes">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="alinearIzquierda" colspan="2">
+                        <label>Nombres y apellidos del alumno: </label>
+                        <input type="text" id="ins" class="input2" required> &nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td class="alinearIzquierda">
+                        <label>Edad: </label>
+                        <input type="number" id="ins" min="0" max="100"  class="input2" required>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>                 
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda">
+                        <label>Lugar de Nacimiento: </label>
+                        <input type="text" id="ins"  class="input2" required>
+                    </td>
+                    <td  class="alinearIzquierda">
+                        <label>Fecha de Nacimiento: </label>
+                        <input type="date" id="ins"  class="input2" required>
+                    </td>
+                    <td class="alinearIzquierda">
+                        <label for="">Registro civil No.</label>
+                        <input type="text" id="ins"  class="input2" required>
+                    </td>                
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label>Dirección casa o departamento (Actual): </label>
+                        <input type="text" id="ins"  class="input2" >
+                    </td>
+                    <td class="alinearIzquierda">
+                        <label for="">Barrio</label>
+                        <input type="text" id="ins"  class="input2">
+                    </td>                
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda">
+                        <label>Teléfono: </label>
+                        <input type="number" id="ins"  class="input2">
+                    </td>
+                    <td  class="alinearIzquierda">
+                        <label>Celular: </label>
+                        <input type="number" id="ins"  class="input2">
+                    </td>
+                    <td  class="alinearIzquierda">
+                        <label>Foto (subir foto tamaño carnet fondo azul) </label>
+                        <input type="file" id="ins"  class="input2">
+                    </td>
+                               
+                </tr>
+              
+            </table>  
+
+                  
+        </div>
+        <br><br>
+        <div class="principal">
+            <label class="titulo"><b>DATOS JORNADA ACADÉMICA</b> </label> 
+        </div>
+        <br><br>
+        <DIv class="margenes">
+            <table style="width: 100%;">
+                <tr>
+                    <td  class="alinearIzquierda" colspan="3">
+                        <label>Jornada: </label>&nbsp;&nbsp;
+                        <label>1:00pm </label>
+                        <input type="radio" name="jornada">&nbsp;&nbsp;&nbsp;
+                        <label>3:00pm </label>
+                        <input type="radio" name="jornada">&nbsp;&nbsp;&nbsp;
+                        <label>5:30pm </label>
+                        <input type="radio" name="jornada">
+                    </td>               
+                </tr>
+    
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label>¿Necesita ruta?: </label>&nbsp;&nbsp;
+                        <label>Si </label>
+                        <input type="checkbox">&nbsp;&nbsp;&nbsp;
+                        <label>No</label>
+                        <input type="checkbox">&nbsp;&nbsp;&nbsp;
+                        <label>Completa</label>
+                        <input type="checkbox">&nbsp;&nbsp;&nbsp;
+                        <label>Media</label>
+                        <input type="checkbox">&nbsp;&nbsp;&nbsp;          
+                    </td>   
+                    <td class="alinearIzquierda">
+                        <label>Destino:</label>
+                        <input type="text" id="ins" class="input2" >&nbsp;&nbsp;&nbsp;
+                    </td>            
+                </tr>
+            </table>
+        </DIv>
+        
+        <br><br>
+        <div class="principal">
+            <label class="titulo"><b>INFORMACIÓN DE SALUD</b> </label> 
+        </div>
+    
+        <br><br>
+      
+        <div class="margenes">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="alinearIzquierda">
+                        <label>Eps</label>
+                        <select name="" id="">
+                            <option disabled selected> Seleccione....</option>
+                            <option value="">SALUDVIDA S.A. E.P.S.</option>
+                            <option value="">NUEVA EPS S.A.</option>
+                            <option value="">SALUD TOTAL S.A. E.P.S.</option>
+                            <option value="">EPS Y MEDICINA PREPAGADA SURAMERICANA S.A.</option>
+                            <option value="">EPS SERVICIO OCCIDENTAL DE SALUD S.A.</option>
+                            <option value="">E.P.S. SANITAS S.A.</option>
+                        </select>
+                    </td> 
+                    <td class="alinearIzquierda">
+                        <label>Certificado médico </label>
+                        <input type="file" id="ins" class="input2"> &nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td class="alinearIzquierda">
+                        <label>Fotocopia del carnet de vacunación</label>
+                        <input type="file" id="ins" min="0" max="100"  class="input2">&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>                 
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2" style="width: 55%;">
+                        <label> 1.- ¿Tiene alguna enfermedad que requiera periódicamente tratamiento o control médico?</label>
+                        <label for="">Si</label>
+                        <input type="radio" name="enfermedad">
+                        <label for="">No</label>
+                        <input type="radio" name="enfermedad">
+                    </td> 
+                    <td  class="alinearIzquierda" style="width: 30%;">
+                        <label>¿Cual? </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td> 
+                        
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label> 2.- ¿Tiene algún tipo de alergía? </label>
+                        <label for="">Si</label>
+                        <input type="radio" name="enfermedad">
+                        <label for="">No</label>
+                        <input type="radio" name="enfermedad">
+                    </td> 
+                    <td  class="alinearIzquierda" style="width: 35%;">
+                        <label>¿Cual? </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td> 
+                        
+                </tr> 
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label> 2.- ¿Presenta alguna limitación física? </label>
+                        <label for="">Si</label>
+                        <input type="radio" name="enfermedad">
+                        <label for="">No</label>
+                        <input type="radio" name="enfermedad">
+                    </td> 
+                    <td  class="alinearIzquierda" style="width: 35%;">
+                        <label>¿Cual? </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td> 
+                        
+                </tr>
+              
+            </table>         
+        </div>
+
+        <br><br>
+        <div class="principal">
+            <label class="titulo"> <b>DATOS FAMILIARES</b> </label> 
+        </div>
+        <br><br>
+      
+        <div class="margenes">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="alinearIzquierda" colspan="2">
+                        <label>Nombres de la madre: </label>
+                        <input type="text" id="ins" class="input2"> &nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td class="alinearIzquierda">
+                        <label>Ocupación: </label>
+                        <input type="text" id="ins" min="0" max="100"  class="input2">&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>                 
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label>Dirección lugar de trabajo: </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td>
+                    <td  class="alinearIzquierda">
+                        <label>Telefóno: </label>
+                        <input type="number" id="ins"  class="input2" min="0">
+                    </td>             
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" style="width: 35%;">
+                        <label>Dirección de la residencia: </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td>
+                    <td class="alinearIzquierda">
+                        <label for="">Telefóno</label>
+                        <input type="number" id="ins"  class="input2" min="0">
+                    </td>   
+                    <td class="alinearIzquierda">
+                        <label for="">Celular</label>
+                        <input type="number" id="ins"  class="input2" min="0">
+                    </td>              
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label>Correo: </label>
+                        <input type="email" id="ins"  class="input2">
+                    </td>
+                                 
+                </tr>
+                <tr>
+                    <td class="alinearIzquierda" colspan="2" style="padding-top: 4%;">
+                        <label>Nombres del padre: </label>
+                        <input type="text" id="ins" class="input2"> &nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td class="alinearIzquierda" style="padding-top: 4%;">
+                        <label>Ocupación: </label>
+                        <input type="text" id="ins" min="0" max="100"  class="input2">&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>                 
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label>Dirección lugar de trabajo: </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td>
+                    <td  class="alinearIzquierda">
+                        <label>Telefóno: </label>
+                        <input type="number" id="ins"  class="input2" min="0">
+                    </td>             
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" style="width: 35%;">
+                        <label>Dirección de la residencia: </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td>
+                    <td class="alinearIzquierda">
+                        <label for="">Telefóno</label>
+                        <input type="number" id="ins"  class="input2" min="0">
+                    </td>   
+                    <td class="alinearIzquierda">
+                        <label for="">Celular</label>
+                        <input type="number" id="ins"  class="input2" min="0">
+                    </td>              
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label>Correo: </label>
+                        <input type="email" id="ins"  class="input2">
+                    </td>
+                                 
+                </tr>    
+            </table>           
+        </div>
+
+        <br><br>
+        <div class="principal">
+            <label class="titulo"> <b>OTROS ASPECTOS</b> </label>
+        </div>
+       
+        <br><br>
+      
+        <div class="margenes">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="alinearIzquierda" colspan="3">
+                        <label>¿Con quién vive el estudiante? </label>
+                        <input type="text" id="ins" class="input2"> &nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>              
+                </tr>
+                <tr>
+                    <td  class="alinearIzquierda" colspan="2">
+                        <label>¿Cuantos hermanos tiene?</label>
+                        <input type="text" id="ins"  class="input2">
+                    </td>
+                    <td  class="alinearIzquierda">
+                        <label>¿Que lugar ocupa entre ellos? </label>
+                        <input type="text" id="ins"  class="input2">
+                    </td>             
+                </tr>
+                
+                <tr>
+                    <td  class="alinearIzquierda" colspan="3">
+                        <label>Observaciones</label>
+                        <textarea name="" id="ins" cols="30" rows="10" class="input2" placeholder="Información adicional relacionada con el estudiante"  ></textarea>
+                    </td>
+                                 
+                </tr>
+                          
+            </table>  
+            <br>
+            <button type="reset" class="botonlimpiar "> <i class="fas fa-broom"></i>&nbsp; <b>Limpiar</b> </button>
+
+            <button type="submit" class="botonguardar button2"> <i class="fas fa-check"></i>&nbsp; <b>Guardar</b> </button>
+            <br><br>
+        </div>
+    </form>
+    </div>
+</body>
+</html>   
